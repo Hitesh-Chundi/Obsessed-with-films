@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: crimson;
+}
+
+nav li {
+    display: inline-block;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: antiquewhite;
+}
