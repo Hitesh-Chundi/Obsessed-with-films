@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
+
+
+/*NAVBAR*/
 
 nav {
     display: flex;
@@ -27,4 +28,36 @@ nav a {
 
 nav a:hover {
     color: antiquewhite;
+}
+
+
+/*SECTION 1*/
+
+body {
+    margin: 0;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding-left: 130px;
+    padding-right: 100px;
+    background-color: beige;
+}
+
+.one img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    padding: 50px 0;
+}
+
+.one h1 {
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 100px;
+    padding-left: 50px;
 }
