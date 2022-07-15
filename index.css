@@ -36,7 +36,7 @@ nav a:hover {
 
 body {
     margin: 0;
-    background-color: beige;
+    background-color: black;
 }
 
 .one {
@@ -45,7 +45,6 @@ body {
     margin-top: 100px;
     padding-left: 130px;
     padding-right: 100px;
-    background-color: beige;
 }
 
 .one img {
@@ -59,6 +58,7 @@ body {
 .one figcaption {
     text-align: center;
     font-size: 10px;
+    color: antiquewhite;
 }
 
 .one h1 {
@@ -68,6 +68,7 @@ body {
     font-style: italic;
     padding-top: 100px;
     padding-left: 50px;
+    color: antiquewhite;
 }
 
 .one figure {
@@ -80,6 +81,7 @@ body {
 h2 {
     text-align: center;
     font-size: 30px;
+    color: antiquewhite;
 }
 
 .two img {
@@ -97,19 +99,22 @@ h2 {
 .two p {
     font-size: 10px;
     text-align: center;
+    color: antiquewhite;
 }
 
 .two figcaption {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+    color: antiquewhite;
+    margin-bottom: 20px;
 }
 
 .two a {
-    color: black;
     text-decoration: none;
+    color: antiquewhite;
 }
 
 .two a:hover {
-    color: blue;
+    color: yellow;
 }
