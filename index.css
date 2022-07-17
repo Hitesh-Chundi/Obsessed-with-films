@@ -8,10 +8,11 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     background-color: crimson;
+    height: 100px;
 }
 
 nav li {
@@ -20,6 +21,26 @@ nav li {
     font-family: monospace;
     font-size: 18px;
     font-weight: 550;
+}
+
+nav input {
+    width: 500px;
+    height: 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: Arial;
+    border: 2px solid black;
+}
+
+nav i {
+    width: unset;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+nav i:hover {
+    color: antiquewhite;
 }
 
 nav a {
@@ -42,9 +63,8 @@ body {
 .one {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-    padding-left: 130px;
-    padding-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .one img {
@@ -65,10 +85,10 @@ body {
     font-family: monospace;
     font-size: 35px;
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
     padding-top: 100px;
-    padding-left: 50px;
     color: antiquewhite;
+    margin-left: 100px;
 }
 
 .one figure {
@@ -116,5 +136,17 @@ h2 {
 }
 
 .two a:hover {
-    color: yellow;
+    color: crimson;
+}
+
+.two figure:hover {
+    animation-name: figures;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes figures {
+    100% {
+        transform: scale(1.1);
+    }
 }
