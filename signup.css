@@ -12,7 +12,7 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     background-color: crimson;
@@ -35,6 +35,10 @@ nav a:hover {
     color: antiquewhite;
 }
 
+body {
+    margin: 0;
+}
+
 
 /*MAIN SECTION*/
 
@@ -44,7 +48,7 @@ h1 {
     font-weight: 700;
     font-size: 33px;
     color: antiquewhite;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 p {
@@ -56,6 +60,7 @@ p {
 
 fieldset {
     border-radius: 10px;
+    box-shadow: 5px 5px 20px crimson;
 }
 
 form {
@@ -73,6 +78,10 @@ label {
 input {
     width: 100%;
     margin: 3px 0 0 0;
+    font-family: "Times New Roman";
+    font-weight: 600;
+    height: 28px;
+    font-size: 16px;
 }
 
 .border-radius {
@@ -102,8 +111,18 @@ input[type="file"] {
     font-weight: 600;
     border-radius: 25px;
     background-color: antiquewhite;
+    box-shadow: 5px 5px 20px crimson;
 }
 
 button:hover {
-    color: blue;
+    animation-name: butt-on;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes butt-on {
+    100% {
+        background-color: crimson;
+    }
 }
