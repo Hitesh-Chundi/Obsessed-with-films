@@ -7,16 +7,16 @@
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     position: relative;
     top: 0;
     width: 100%;
     background-color: crimson;
-    height: 120px;
+    height: auto;
 }
 
 .logo {
-    width: 65px;
+    width: 100px;
     vertical-align: middle;
     height: auto;
     margin-right: 450px;
@@ -25,7 +25,10 @@ nav {
 
 nav li {
     display: inline-block;
-    padding: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
     font-family: monospace;
     font-size: 18px;
     font-weight: 550;
