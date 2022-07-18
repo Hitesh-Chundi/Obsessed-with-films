@@ -12,12 +12,20 @@ nav {
     top: 0;
     width: 100%;
     background-color: crimson;
-    height: 100px;
+    height: 120px;
+}
+
+.logo {
+    width: 65px;
+    vertical-align: middle;
+    height: auto;
+    margin-right: 450px;
+    border-radius: 10px;
 }
 
 nav li {
     display: inline-block;
-    padding: 25px;
+    padding: 20px;
     font-family: monospace;
     font-size: 18px;
     font-weight: 550;
@@ -30,7 +38,7 @@ nav input {
     font-size: 16px;
     font-weight: 600;
     font-style: Arial;
-    border: 2px solid black;
+    border: 3px solid black;
 }
 
 nav i {
